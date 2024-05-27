@@ -2,7 +2,7 @@ import { Box, Flex, Link, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Box bg="brand.800" color="white" px={4} py={2} mt={10}>
+    <Box bg="brand.900" color="white" px={4} py={2} mt={10}>
       <Flex justify="space-between" align="center">
         <Text fontSize="sm">&copy; {new Date().getFullYear()} Financial Times</Text>
         <Flex>
