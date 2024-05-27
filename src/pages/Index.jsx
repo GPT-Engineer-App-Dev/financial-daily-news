@@ -2,7 +2,7 @@ import { Box, Container, Flex, Grid, GridItem, Text, VStack } from "@chakra-ui/r
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="brand.800">
       <VStack spacing={4} align="stretch">
         <Box bg="gray.100" p={4} borderRadius="md">
           <Text fontSize="2xl" fontWeight="bold">
